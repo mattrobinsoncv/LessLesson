@@ -1,0 +1,10 @@
+Links used in the videos:
+
+http://www.lesscss.org
+http://incident57.com/less/
+http://wearekiss.com/simpless
+
+Links specifically for the Espresso text editor:
+
+https://github.com/cellfusion/LESS.sugar
+http://www.sangwine.net/jim/index.php/2011/06/adding-sugar-to-espresso/
