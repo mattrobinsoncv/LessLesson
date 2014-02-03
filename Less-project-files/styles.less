@@ -1,10 +1,15 @@
+@headerColour: blue;
+@borderSize: 2px;
+.mixinFont(@bgColour: silver) { font-family: sans-serif; background-color: @bgColour;}
+
+h1 { color: @headerColour; .mixinFont; border: solid red @borderSize;}
 #content {
 	background: gray;
 	
-	h1 { color: red; }
+	h2 { .mixinFont(@headerColour); }
 	p { 
 		font-style:italic; 
-		
+		border: dotted green @borderSize * 2;
 		a { color:green; }
 	}
 }
